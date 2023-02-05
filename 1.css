@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+} 
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 80px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.contenter{
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+.contenter h1{
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.contenter h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.contenter h2{
+    color: #665d5d;
+    font-size: 2em;
+}
+
+.contenter h3{
+    color: aqua;
+    font-size: 2em;
+    margin-left: 15px;
+}
+
+.contenter .Viewallgame a{ 
+    text-decoration: none;
+    display: inline-block;
+    color:#fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 0px;
+} 
+
+
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.containerer{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    
+}
+.containerer .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.containerer .box .IMG{
+    width: 100%;
+}
+
+/*--------------PAGE2--------------*/
+
+.Page2{
+    background-color: rgba(185, 24, 3, 0.959);
+    text-align: center;
+}
+.page2-1{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.page2-1 IMG{
+    width: 100%;
+}
+.page2-2{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-2 IMG{
+    width: 100%;
+}
+.page2-3{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-3 IMG{
+    width: 100%;
+}
+.page2-4{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-4 IMG{
+    width: 100%;
+}
+.page2-5{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-5 IMG{
+    width: 100%;
+}
+.page2-6{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-6 IMG{
+    width: 100%;
+}
+.page2-7{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-7 IMG{
+    width: 100%;
+}
+.page2-8{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-8 IMG{
+    width: 100%;
+}
+.page2-9{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.page2-9 IMG{
+    width: 100%;
+}
+
+
+.Page3{
+    background-color: aqua;
+}
+
+
+/*EVENTT*/
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.event .row{
+    margin-top: 50px;
+}
+.row .col .Dota{
+    width: 400px;
+    height: 250px;
+}
+h4{
+    font-size: 3vmin;
+    color: #49497e;
+    margin: 20px auto;
+}
+p{
+    color: #7c7c7c;
+}
+.event .ctn{
+    margin-top: 30px;
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.explore h1{
+    text-align: center;
+}
+.explore .back-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.explore-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+    font-weight: 900;
+    mix-blend-mode: multiply;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(135deg, #000, #665d5d);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+}
+footer .social_icon,footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li,footer .menu li{
+    list-style: none; 
+}
+footer .social_icon li a{
+    font-size:  2em;
+    color: var(--clr);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+
+footer .social_icon li:hover a{
+    font-size: 2em;
+    filter: drop-shadow(0 0 20px var(--clr));
+}
+
+
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu li a{
+    font-size:  1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:  url(images/wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 4s linear infinite;
+}
+@keyframes animateWave{
+    0%
+    {
+        background-position-x: 1000px;
+    }
+    100%
+    {
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02{
+    0%
+    {
+        background-position-x: 0px;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+} 
